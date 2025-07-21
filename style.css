@@ -1,0 +1,79 @@
+/* Add your CSS styling here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, 
+    #003366 0%, 
+    #003366 calc(50% - 3cm), 
+    darkblue calc(50% - 3cm), 
+    darkblue calc(50% - 1cm), 
+    red calc(50% - 0.5cm), 
+    red calc(50% + 0.5cm), 
+    darkblue calc(50% + 1cm), 
+    darkblue calc(50% + 3cm), 
+    #003366 calc(50% + 3cm), 
+    #003366 100%);
+}
+
+header {
+padding: 20px;
+text-align: center;
+}
+
+.home-button {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.home-button img {
+margin-right: 10px;
+}
+
+.home-button span {
+color: white;
+font-weight: bold;
+margin-left: 5px;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+section {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+}
+
+.history {
+border-bottom: 4px solid red; /* Red line at the bottom */
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: relative;
+bottom: 0;
+}
+
+
+
+
+
+
+
