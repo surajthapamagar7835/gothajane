@@ -4,9 +4,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #00FFCC;
   background: linear-gradient(to bottom, 
-    #003366 calc(50% - 3cm), 
+    #00FFCC calc(25% - 3cm), 
     darkblue calc(50% - 3cm), 
     darkblue calc(50% - 1cm), 
     red calc(50% - 0.5cm), 
@@ -14,7 +13,7 @@ body {
     darkblue calc(50% + 1cm), 
     darkblue calc(50% + 3cm), 
     #003366 calc(50% + 3cm), 
-    #003366 100%);
+    #00FFCC 100%);
 }
 
 h1 {
