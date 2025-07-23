@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleButton = document.getElementById('photosToggle');
-  const dropdownMenu = document.getElementById('photosMenu');
+  // Only handle dropdown for Events, not Photos
+  const eventsToggle = document.getElementById('eventsToggle');
+  const eventsMenu = document.getElementById('eventsMenu');
 
-  toggleButton.addEventListener('click', (event) => {
+  eventsToggle.addEventListener('click', (event) => {
     event.preventDefault(); // Prevent page jumping
-    dropdownMenu.classList.toggle('show');
+    eventsMenu.classList.toggle('show');
   });
 
   // Optional: close dropdown when clicking outside
   document.addEventListener('click', (event) => {
-    if (!toggleButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
-      dropdownMenu.classList.remove('show');
+    if (!eventsToggle.contains(event.target) && !eventsMenu.contains(event.target)) {
+      eventsMenu.classList.remove('show');
     }
   });
 });
