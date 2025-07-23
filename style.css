@@ -4,9 +4,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #2E8B57;
+  background-color: #00FFCC;
   background: linear-gradient(to bottom, 
-    #003366 0%, 
     #003366 calc(50% - 3cm), 
     darkblue calc(50% - 3cm), 
     darkblue calc(50% - 1cm), 
