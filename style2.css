@@ -94,7 +94,7 @@ section {
 }
 
 h1 {
-  font-size: 5em; /* Adjust as needed — 3em is roughly double the default */
+  font-size: 3em; /* Adjust as needed — 3em is roughly double the default */
   margin: 0.5em 0;
   color: #f0f0f0; /* Light color for contrast on dark background */
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Optional: adds a classy shadow */
