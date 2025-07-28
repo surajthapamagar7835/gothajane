@@ -1,3 +1,17 @@
+function unlockSite() {
+  const passcode = document.getElementById("passcode").value;
+  const correctPasscode = "gotha2025"; // Change this to your actual passcode
+
+  if (passcode === correctPasscode) {
+    document.getElementById("lock-screen").style.display = "none";
+  } else {
+    document.getElementById("error-msg").textContent = "Incorrect passcode. Try again.";
+  }
+}
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
   // Only handle dropdown for Events, not Photos
   const eventsToggle = document.getElementById('eventsToggle');
