@@ -1,108 +1,64 @@
 /* Add your CSS styling here */
 
-/*
 .event-list {
-  background-color: #f4f4f4;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
-  max-width: 1000px;
-  margin: 40px auto;
-}
-
-.event-list h2 {
-  text-align: center;
-  font-size: 2em;
-  color: #003366;
-  margin-bottom: 30px;
-  font-family: 'Georgia', serif;
-}
-
-.event-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.event-table th, .event-table td {
-  border: 1px solid #ccc;
-  padding: 12px 16px;
-  text-align: left;
-}
-
-.event-table th {
-  background-color: #003366;
-  color: white;
-  font-size: 1.1em;
-}
-
-.event-table tr:nth-child(even) {
-  background-color: #e9f0f7;
-}
-
-.event-table tr:hover {
-  background-color: #d0e0f0;
-}
-*/
-
-.event-list {
-  background: linear-gradient(to bottom right, #f0f4f8, #dbe5f1);
+  background-color: #1c1c1c; /* Dark background */
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
   max-width: 1000px;
   margin: 50px auto;
   font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
 }
 
 .event-list h2 {
   text-align: center;
-  font-size: 2.2em;
-  color: #002147;
+  font-size: 2.4em;
+  color: #e0e0e0;
   margin-bottom: 30px;
   font-family: 'Georgia', serif;
   letter-spacing: 1px;
   text-transform: uppercase;
+  border-bottom: 2px solid #cc0000; /* Red underline */
+  padding-bottom: 10px;
 }
 
 .event-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: white;
+  background-color: #2a2a2a;
   border-radius: 12px;
   overflow: hidden;
 }
 
 .event-table th, .event-table td {
-  padding: 14px 18px;
+  padding: 16px 20px;
   text-align: left;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #444;
+  color: #f0f0f0;
 }
 
 .event-table th {
-  background-color: #002147;
+  background-color: #cc0000; /* Bold red header */
   color: #ffffff;
   font-size: 1.1em;
   text-transform: uppercase;
 }
 
 .event-table tr:nth-child(even) {
-  background-color: #f2f6fa;
-}
-
-.event-table tr:hover {
-  background-color: #e0ebf5;
+  background-color: #262626;
 }
 
 .event-table a {
-  color: #003366;
+  color: #66ccff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .event-table a:hover {
-  text-decoration: underline;
+  text-decoration: none; /* No hover effect as requested */
 }
+
 
 
 
