@@ -1,5 +1,6 @@
 /* Add your CSS styling here */
 
+/*
 .event-list {
   background-color: #f4f4f4;
   padding: 40px;
@@ -41,6 +42,66 @@
 
 .event-table tr:hover {
   background-color: #d0e0f0;
+}
+*/
+
+.event-list {
+  background: linear-gradient(to bottom right, #f0f4f8, #dbe5f1);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.event-list h2 {
+  text-align: center;
+  font-size: 2.2em;
+  color: #002147;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.event-table th, .event-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.event-table th {
+  background-color: #002147;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #f2f6fa;
+}
+
+.event-table tr:hover {
+  background-color: #e0ebf5;
+}
+
+.event-table a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.event-table a:hover {
+  text-decoration: underline;
 }
 
 
