@@ -9,6 +9,12 @@
   margin: 50px auto;
   font-family: 'Segoe UI', sans-serif;
   color: #ffffff;
+  overflow-x: auto;
+}
+
+.event-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
 }
 
 .event-list h2 {
@@ -29,6 +35,8 @@
   background-color: #2a2a2a;
   border-radius: 12px;
   overflow: hidden;
+  min-width: 600px; /* Ensures table doesn't collapse too much */
+  table-layout: auto;
 }
 
 .event-table th, .event-table td {
