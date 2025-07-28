@@ -3,12 +3,42 @@ function unlockSite() {
   const correctPasscode = "gotha2025"; // Change this to your actual passcode
 
   if (passcode === correctPasscode) {
+    const now = new Date().getTime();
+    localStorage.setItem("unlockedAt", now);
     document.getElementById("lock-screen").style.display = "none";
   } else {
     document.getElementById("error-msg").textContent = "Incorrect passcode. Try again.";
   }
 }
 
+window.onload = function () {
+  const unlockedAt = localStorage.getItem("unlockedAt");
+  const now = new Date().getTime();
+  const fifteenMinutes = 15 * 60 * 1000;
+
+  if (unlockedAt && now - unlockedAt < fifteenMinutes) {
+    document.getElementById("lock-screen").style.display = "none";
+  } else {
+    document.getElementById("lock-screen").style.display = "flex";
+  }
+};
+
+
+
+
+
+/*
+function unlockSite() {
+  const passcode = document.getElementById("passcode").value;
+  const correctPasscode = "gotha2025"; // Change this to your actual passcode
+
+  if (passcode === correctPasscode) {
+    document.getElementById("lock-screen").style.display = "none";
+  } else {
+    document.getElementById("error-msg").textContent = "Incorrect passcode. Try again.";
+  }
+}
+*/
 
 
 
