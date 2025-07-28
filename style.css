@@ -1,26 +1,18 @@
 /* Add your CSS styling here */
-.photo-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  padding: 40px;
-}
 
 .photo-card {
-  width: 300px;
+  background-color: #1a1a1a; /* Dark card background */
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #fffdf9;
-  border: 1px solid #e0dcd5;
   text-align: center;
+  border: 1px solid #2c2c2c;
 }
 
 .photo-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 30px rgba(160, 140, 100, 0.2); /* Warm shadow */
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.1);
 }
 
 .photo-card img {
@@ -31,17 +23,26 @@
 
 .caption {
   padding: 20px;
+  background-color: #121212;
 }
 
 .caption h2 {
   font-size: 1.4em;
   margin-bottom: 10px;
-  color: #3a3a3a;
+  color: #ffffff;
 }
 
 .caption p {
   font-size: 1em;
-  color: #5c5c5c;
+  color: #cccccc;
+}
+
+.photo-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
 }
 
 
