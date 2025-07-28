@@ -1,4 +1,57 @@
 /* Add your CSS styling here */
+.personnel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.personnel-card {
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.personnel-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.1);
+}
+
+.personnel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #111;
+}
+
+.personnel-card .info {
+  padding: 20px;
+  background-color: #121212;
+}
+
+.personnel-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.personnel-card p {
+  margin: 5px 0 0;
+  color: #cccccc;
+}
+
+
+
+
+
+
+
 
 .photo-card {
   background-color: #1a1a1a; /* Dark card background */
