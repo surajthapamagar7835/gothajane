@@ -85,7 +85,7 @@
 
 .personnel-card img {
   width: 100%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
   background-color: #111;
 }
@@ -368,6 +368,7 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
 
 
 
