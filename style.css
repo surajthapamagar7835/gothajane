@@ -87,6 +87,8 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+  object-position: center top;
+  display: block;
   background-color: #111;
 }
 
@@ -368,6 +370,7 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
 
 
 
