@@ -6,6 +6,11 @@
   max-width: 100%;
   height: auto;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 
 
@@ -381,6 +386,7 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
 
 
 
