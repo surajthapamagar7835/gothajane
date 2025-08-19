@@ -1,5 +1,16 @@
 /* Add your CSS styling here */
 
+
+
+#about img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
 #lock-screen {
   position: fixed;
   top: 0;
@@ -370,6 +381,7 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
 
 
 
