@@ -138,6 +138,7 @@ img {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  align-items: center;
   border: 1px solid #2c2c2c;
   width: 320px;
 }
@@ -386,6 +387,7 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
 
 
 
